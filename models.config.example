@@ -1,0 +1,8 @@
+model_config_list {
+ config {
+    name: 'potato_disease'
+    base_path: 'F:/potato_disease/saved_models'  # Update this path
+    model_platform: 'tensorflow'
+    model_version_policy: {all: {}}
+        }
+}
